@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/929f950d45.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Fluffy Pony</title>
+</head>
+<body class="body">
+    <header>
+        <nav style="background-color: #E9D6B2;">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <div class="nav-wrapper container">
+            <img src="Customize.png" class="brand-logo container">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="Index.html" class="text-color">HOME</a></li>
+                    <li><a href="Menu.html" class="text-color">MENU</a></li>
+                    <li><a href="About.html" class="text-color">ABOUT</a></li>
+                    <li><a href="Cart.html" class="text-color"><i class="material-icons">shopping_bag</i></a></li>
+                    <li><a href="#modal10" class="text-color waves-effect waves-light btn modal-trigger" style="background-color:#E9D6B2">Sign-Up/Login</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4 style="font-size: xxx-large;font-weight: bold; color: #BE741C ;text-align: center;">ABOUT</h4>
+        <div class="divider black"></div>
+        <div class="row">
+            <h4 style="font-size: xx-large;font-weight: 600; color: #BE741C ;text-align: left;">Welcome to Fluffy Pony!</h4>
+            <div class="col s8 m8 l8">
+            <p class="flow-text" style="font-size: large;font-style: italic;">
+                As familiar as an old buddy. That is our opinion on Fluffy Pony. It's incredible to think that it's been with us since the 1980s, celebrating our 
+                finest moments with family and friends, and cheering us up when we needed it the most. Everyone has a favorite Pancake House dish—on 
+                it's our minds, and we can nearly taste it as we enter through the door and hear the kind greeting.
+            </p>
+            </div>
+            <div class="col s4 m4 l4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s8 m8 l8">
+                <p class="flow-text" style="font-size: large;font-style: italic;">
+                    Pioneers recall the early Fluffy Pony Pancake House and the Alabang
+                    Arcade. They scarcely noticed the time passing as they ate huge helpings of our wonderfully 
+                    fluffy pancakes in bright orange and pink booths with classic movie pictures on the walls.
+                </p>
+            </div>
+            <div class="col s4 m4 l4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s8 m8 l8">
+                <p class="flow-text" style="font-size: large;font-style: italic;">
+                    Today, we are delighted to continue welcoming new generations of friends like you into every Pancake House—in 
+                    Alabang and the other over 100 franchisees around the country and beyond. 
+                    Choose from a delectably extensive menu to satisfy you in the morning, noon, evening, and at all times in between.
+                </p>
+            </div>
+            <div class=""></div>
+        </div>
+        <div class="row">
+            <div class="col s8 m8 l8">
+                <p class="flow-text" style="font-size: large;font-style: italic;">
+                    Whatever generation you come from, Pancake House will always welcome you like a long-lost friend. To honor your favorites. 
+                    to make fresh memories To bring goodness home.
+                </p>
+            </div>
+        </div>
+        </div> 
+    </div>
+
+<!--Side Navigation-->
+<ul id="slide-out" class="sidenav" style="background-color: #E9D6B2;">
+    <div class="user-view" style="height: 80px;">
+        <img src="Customize.png" class="brand-logo" style="top: -15px; left: 60px;">
+    </div>
+    <div>
+        <li><a href="Index.html" class="text-color">HOME</a></li>
+        <li><a href="Menu.html" class="text-color">MENU</a></li>
+        <li><a href="About.html" class="text-color">ABOUT</a></li>
+        <li><a href="Cart.html" class="text-color">FOOD CART</a></li>
+        <li><a href="#modal10" class="text-color waves-effect waves-light btn modal-trigger" style="background-color:#E9D6B2; color:#BE741C ;">Sign-Up/Login</a></li>
+</ul>
+
+<!--Sign Up-->
+<!-- Modal Structure -->
+<div class="row">
+    <div class="col s12 m6 l6">
+    <div id="modal10" class="modal-sign modal" >
+        <div class="modal-content">
+        <div class="row">
+            <div class="col s12">
+            <ul class="tabs" style="background-color:#E9D6B2;">
+                <li class="tab col s6"><a href="#test1" style="color:#BE741C;">Sign-up</a></li>
+                <li class="tab col s6"><a href="#test2" style="color:#BE741C;">Sign-in</a></li>
+            </ul>
+            </div>
+            <div id="test1" class="col s12 ">
+                <h4 class="sign-in">REGISTRATION</h4>
+                        <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6 m6 l6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6 m6 l6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12 m6 l6">
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="input-field col s12 m6 l6">
+                                <input id="confirm-password" type="password" class="validate">
+                                <label for="confirm-password">Confirm Password</label>
+                            </div>
+                        </form>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-signin modal-close waves-effect waves-green btn-flat right" style="background-color:#BE741C">Register</a>
+                        </div>
+                    </div>
+            </div>
+            <div id="test2" class="col s12">
+                <h4 class="sign-in">LOG-IN</h4>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12 m6 l6">
+                        <input id="email-add" type="email" class="validate">
+                        <label for="email-add">Email</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="password-add" type="password" class="validate">
+                            <label for="password-add">Password</label>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-signin modal-close waves-effect waves-green btn-flat right" style="background-color:#BE741C">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+</div>
+</div>
+    <!--Footer-->
+    <footer class="page-footer" style="background-color: #BE741C;">
+        <div class="container">
+        <div class="row">
+            <div>
+            <h5 class="white-text" style="text-align: center;">Follow us through our social media accounts.</h5>
+            </div>
+            <div>
+            <h5 class="white-text" style="text-align: center;" ></h5>
+            <ul class="social-media" style="text-align: center;">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/cyddyyyyyy"><i class="fab fa-facebook medium" style="color:#E9D6B2;"></i></a>
+                    <a href=""><i class="fab fa-twitter medium" style="color:#E9D6B2;"></i></a>
+                    <a><i class="fab fa-instagram medium" style="color:#E9D6B2;"></i></a>
+                </div>
+                </div>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright" style="background-color:#E9D6B2;">
+            <div class="container center" style="color: #BE741C;">
+                Fluffy Pony © 2022 Copyright
+        </div>
+        </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $( document ).ready(function(){
+            $('.sidenav').sidenav();
+            $('.tabs').tabs();
+            $('.modal').modal();
+            $('select').formSelect();
+            $('.materialboxed').materialbox();
+        })
+    </script>
+</body>
+</html>

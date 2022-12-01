@@ -1,0 +1,95 @@
+.brand-logo {
+    position: absolute;
+    width: 180px;
+    height: 145px;
+    left: 0px;
+    top: -41px;
+}
+.nav-wrapper {
+    background-color: #E9D6B2;
+    height: 110px;
+}
+.collapsible-header {
+    background: linear-gradient(to right,#e9b87c , #E9D6B2,#e9b87c);
+}
+footer {
+    background: linear-gradient(to right, #E9D6B2, #BE741C , #E9D6B2);  
+}
+.material-icons {
+    color:#BE741C;
+}
+.body {
+    background: linear-gradient(to right,#BE741C , #E9D6B2, #E9D6B2,#BE741C);
+}
+.text-color {
+    color:#BE741C;
+    font-weight: 800;
+}
+.background {
+    color:#E9D6B2;
+}
+.text-menu  {
+    color:#BE741C;
+    font-weight: 800;
+    text-align: center;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.button:hover {opacity: 1;
+
+}
+.modal-close {
+    border: none;
+    color: #E9D6B2;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 0;
+    width:  130px;
+    height: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.modal-close:hover {opacity: 1}
+.modal-open {
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 0;
+    width:  130px;
+    height: 50px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.modal-open:hover {opacity: 1}
+
+.tabs {
+    text-align: center;
+}
+.sign-in {
+    font-weight: 600;
+    text-align: center;
+    color: #BE741C;
+}
+.tab {
+    font-weight: 500;
+    text-align: center;
+    color: #BE741C;
+}
